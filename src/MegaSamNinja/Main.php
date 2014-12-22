@@ -15,11 +15,12 @@ class Main extends PluginBase implements Listener{
     }
 	
 	public function onChatCommand(PlayerCommandPreprocessEvent $event){
-		$message = MegaSamNinja
+		$message = "MegaSamNinja";
+		$lord = "My Lord";
 		$player = $event->getPlayer();
 		if($message{0} != "/"){
-		//blah blah
-		//figuring out how to replace "MegaSamNinja" in chat to "My Lord"
+			$message = str_replace($lord);
+			return true;
 		}
 	}
 ?>
