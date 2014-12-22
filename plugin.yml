@@ -1,0 +1,8 @@
+name: Fall
+version: 1.0
+api: [1.8.0]
+author: MegaSamNinja
+description: Lord MegaSam_
+main: megasamninja\Main
+load: STARTUP
+website: https://github.com/MegaSamNinja/My-Lord
