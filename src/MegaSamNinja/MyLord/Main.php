@@ -1,6 +1,6 @@
 <?php
 
-namespace MyLord;
+namespace megasamninja\MyLord;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerCommandPreprocessEvent;
