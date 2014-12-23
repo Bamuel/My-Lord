@@ -19,7 +19,7 @@ class Main extends PluginBase implements Listener{
 		$lord = "My Lord";
 		$player = $event->getPlayer();
 		if($message{0} != "/"){
-			$message = str_replace($lord);
+			$message = str_replace($lord); //Not working here
 			return true;
 		}
 	}
